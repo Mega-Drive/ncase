@@ -904,6 +904,14 @@
 
 @media only screen and (max-width: 480px)
 {
+	body
+	{
+		font-size: 12px;
+	}
+	p
+	{
+		font-size: 12px;
+	}
 	.logo_container
 	{
 		left: 18px;
@@ -928,6 +936,11 @@
 	{
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	.section_header span
+	{
+		font-size: 15px;
+		line-height: 22px;
 	}
 	.main_menu
 	{
@@ -1054,7 +1067,7 @@
 	}
 	.about_us_short
 	{
-		font-size: 15px;
+		font-size: 14px;
 	}
 	.about_us_text
 	{
@@ -1070,19 +1083,19 @@
 		padding-right: 20px;
 		padding-top: 50px;
 	}
+	.serv_short_1 h3, .serv_short_2 h3, .serv_short_3 h3
+	{
+		font-size: 15px;
+		line-height: 22px;
+	}
 	.serv_short_1 h3::before, .serv_short_2 h3::before, .serv_short_3 h3::before
 	{
 		top: -60px;
 	}
 	.q_block h2
 	{
-		font-size: 32px;
-		line-height: 48px;
-	}
-	.q_block h2
-	{
-		font-size: 28px;
-		line-height: 42px;
+		font-size: 22px;
+		line-height: 33px;
 	}
 	.about_us_row_inner
 	{
@@ -1101,8 +1114,17 @@
 	}
 	.pb_item h3
 	{
-		font-size: 14px;
+		font-size: 13px;
 		line-height: 12px;
+	}
+	.stats_content div
+	{
+		font-size: 18px;
+		line-height: 27px;
+	}
+	.stats_content p
+	{
+		font-size: 13px;
 	}
 	.services_container
 	{
@@ -1139,11 +1161,15 @@
 	}
 	.services_container ul li h3
 	{
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.team_info ul
 	{
 		display: none;
+	}
+	.team_info h3 a
+	{
+		font-size: 15px;
 	}
 	.testimonial
 	{
@@ -1164,6 +1190,15 @@
 		vertical-align: baseline;
 		overflow: hidden;
 	}
+	.testimonial_content p
+	{
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.client_info h3
+	{
+		font-size: 13px;
+	}
 	.contact_row h4
 	{
 		width: 30%;
@@ -1171,6 +1206,16 @@
 	.contact_row span
 	{
 		width: 70%;
+	}
+	.footer_contact ul li p
+	{
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.footer_about_inner
+	{
+		font-size: 13px;
+		line-height: 21px;
 	}
 }
 
