@@ -710,7 +710,7 @@
 	}
 	.footer_logo
 	{
-		margin-top: 50px;
+		margin-top: 15px;
 	}
 }
 
@@ -1216,6 +1216,10 @@
 	{
 		font-size: 13px;
 		line-height: 21px;
+	}
+	.footer_logo
+	{
+		margin-top: 50px;
 	}
 }
 
