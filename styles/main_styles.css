@@ -1644,17 +1644,6 @@ p a
 }
 .services_container ul li a:hover
 {
-	width: 100px;
-	opacity: 1;
-}
-.services_container ul li a:hover > span i
-{
-	opacity: 0;
-	visibility: hidden;
-}
-.services_container ul li a:hover > span span
-{
-	visibility: visible;
 	opacity: 1;
 }
 .services_container ul li a span i
@@ -1670,24 +1659,6 @@ p a
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	-webkit-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.services_container ul li a span span
-{
-	display: block;
-	position: absolute;
-	top: 2px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
-	color: #282727;
-	opacity: 0;
-	visibility: hidden;
-	text-align: center;
 	-webkit-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1972,6 +1943,10 @@ p a
 /****************
 13. Team Block
 ****************/
+#team_block
+{
+
+}
 .team_container
 {
 	width: 100%;
