@@ -303,8 +303,9 @@ $(document).ready(function()
 
 			if(toTop > teamPos)
 			{
-				logo.removeClass('logo_black');
-				logo.addClass('logo_white');
+				//alert(teamPos + " " + teamHeight);
+				logo.removeClass('logo_white');
+				logo.addClass('logo_black');
 			}
 			if(toTop > teamHeight)
 			{
