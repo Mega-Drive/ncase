@@ -2326,6 +2326,7 @@ p a
 .footer_contact ul li
 {
 	display: block;
+	height: auto;
 	float: left;
 	position: relative;
 	box-sizing: border-box;
@@ -2364,8 +2365,9 @@ p a
 	display: block;
 	position: relative;
 	color: #F7F7F7;
-	float: left;
 	font-size: 14px;
+	vertical-align: baseline;
+	overflow: hidden;
 }
 .footer_about
 {
